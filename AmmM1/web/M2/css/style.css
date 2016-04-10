@@ -1,0 +1,177 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 23-mar-2016, 18.17.00
+    Author     : Mauro
+*/
+
+/* Stili condivisi da tutte le pagine */
+body{
+    font-family: "Arial",Helvetica,sans-serif;
+    background-color: white;
+}
+
+.topbar{
+    margin-left: 12%;
+    margin-right: 12%;
+    height: 150px;
+    background-color: #A52A2A;  
+    border-radius: 0px 0px 10px 10px;
+}
+
+#logos{
+    margin-left: 20px;
+    margin-top: 30px;
+}
+
+#title{
+    position: relative;
+    bottom: 60px;
+    left: 150px;
+}
+
+.clb{
+    padding: 20px 20px;
+    margin-left: 250px;
+    margin-right: 250px;
+    background-color: whitesmoke; 
+    border-style: solid;
+    border-left-color: #A52A2A;
+    border-right-color:#A52A2A;
+    border-bottom: hidden;
+    border-top: hidden;
+}
+
+.botbar{
+    margin-left: 12%;
+    margin-right: 12%;
+    height: 150px;
+    background-color: #A52A2A;  
+    border-radius: 10px 10px 0px 0px;
+}
+
+label{
+    position: relative;
+    width: 150px;
+    float: left;
+}
+
+
+
+/* Pagina "descrizione.html" */
+#navbard{
+    margin-top: 10px;
+    padding: 10px 10px;
+    position: relative;
+    width: 200px;
+    float: left;
+    border-style: solid;
+    border-color: #A52A2A;
+    border-radius: 0px 10px 10px 0px;
+    vertical-align: top;
+}
+
+h1, h2, h3{
+    color: blue;
+    font-weight: bold;
+}
+
+#lp{
+    margin-top: 10px;
+    position: relative;
+    float: right;
+    border-style: solid;
+    border-color: #A52A2A;
+    border-radius: 10px 0px 0px 10px;
+    padding: 10px 10px;
+    width: 200px;
+    vertical-align: top;
+}
+
+
+/* Pagina "login.html" */
+#menul ul{
+    margin-top: 10px;
+    display: block;
+    padding: 10px 10px;
+    position: relative;
+    width: 200px;
+    float: left;
+    border-style: solid;
+    border-color: #A52A2A;
+    border-radius: 0px 10px 10px 0px;
+    vertical-align: top;
+    list-style-type: none;
+}
+
+a.lin:link{
+    color: blue;
+}
+
+a.lin:visited{
+    color: black;
+}
+
+a.lin:hover{
+    font-style: italic;
+    font-weight: bold;
+}
+
+
+/* Pagina "cliente.html" */
+#menuc ul{
+    margin-top: 10px;
+    display: block;
+    padding: 10px 10px;
+    position: relative;
+    width: 200px;
+    float: left;
+    border-style: solid;
+    border-color: #A52A2A;
+    border-radius: 0px 10px 10px 0px;
+    vertical-align: top;
+    list-style-type: none;
+}
+
+table {
+  border: 2px solid blue;
+  background-color: blue;
+}
+
+.rd{
+    background-color: whitesmoke;
+}
+
+.rp{
+    background-color: white;
+}
+
+td{
+    height: 120px;
+    width: 120px;
+    text-align: center;
+}
+
+.int{
+    color: #A52A2A;
+    background-color: whitesmoke;
+}
+
+
+/* Pagina "venditore.html" */
+#menuv ul{
+    margin-top: 10px;
+    display: block;
+    padding: 10px 10px;
+    position: relative;
+    width: 200px;
+    float: left;
+    border-style: solid;
+    border-color: #A52A2A;
+    border-radius: 0px 10px 10px 0px;
+    vertical-align: top;
+    list-style-type: none;
+}
